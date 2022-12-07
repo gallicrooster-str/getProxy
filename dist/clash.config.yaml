@@ -3258,12 +3258,32 @@ proxies:
     headers:
       host: www.aoop1994.eu.org
     path: /live
+- name: 🇨🇳 _TW_台湾_25@1
+  password: 6c8b18adb11737af
+  port: 3389
+  server: 211.72.35.157
+  skip-cert-verify: false
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
+  name: 🇺🇸 _US_美国 2_25@2
+  network: ws
+  port: 80
+  server: hk80.sanfen001.pics
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e5651d7c-a169-4774-b976-e4aac07dbf93
+  ws-opts:
+    headers:
+      Host: hk80.sanfen001.pics
+    path: /zh-cn/download
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
   network: ws
   port: 443
-  server: 23.227.38.38
+  server: 188.114.99.9
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -3274,393 +3294,30 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
+  name: default_name_25@6
   network: ws
   port: 443
-  server: 23.227.38.39
+  server: 141.101.114.32
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   ws-opts:
     headers:
-      Host: oplg1.zhujicn2.com
-    path: /5QNROSRV
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  network: ws
-  port: 443
-  server: pages-riven.pages.dev
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+- name: 🇨🇳 _TW_台湾 2_25@7
+  password: b09d2aaa443af97a
+  port: 3389
+  server: 211.72.35.155
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4bd74c27-d23a-4083-be2a-5c2c139dadb4
-  ws-opts:
-    headers:
-      Host: g.pgypgykmoljklj.xyz
-    path: /P3gjm
-- alterId: 0
-  cipher: auto
-  name: 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  network: ws
-  port: 8081
-  server: 52.65.55.29
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 77481f21-6a28-40cb-ecbc-0213c085ef92
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  network: ws
-  port: 2095
-  server: king2.mmadserr.ml
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: dabdbbec-f774-41ff-a296-18026f469a97
-  ws-opts:
-    headers:
-      Host: king2.mmadserr.ml
-    path: /fhf5hfth565fhtf
-- name: 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35114
-  server: zz1.piligou.cc
-  skip-cert-verify: false
-  sni: jd4.piligou.cc
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  network: ws
-  port: 24748
-  server: 35.156.177.79
+- name: 🇨🇳 _TW_台湾 3_25@8
+  password: 182228812d1e0f23
+  port: 3389
+  server: 211.72.35.152
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 413f1279-4c68-4350-c731-dcac4cc693ed
-  ws-opts:
-    path: /
-- name: 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35121
-  server: zz1.piligou.cc
-  skip-cert-verify: false
-  sni: jd11.piligou.cc
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  network: ws
-  port: 2086
-  server: www.dynadot.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  ws-opts:
-    headers:
-      Host: kz.cloudflare.quest
-    path: /aries
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  network: ws
-  port: 5888
-  server: a976632911.fun
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 294eecf0-1194-4007-aa23-653099029a82
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
-- name: 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35115
-  server: zz3.piligou.cc
-  skip-cert-verify: false
-  sni: jd5.piligou.cc
-  type: trojan
-- name: 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35113
-  server: zz1.piligou.cc
-  skip-cert-verify: false
-  sni: jd3.piligou.cc
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  network: ws
-  port: 36306
-  server: 85.17.5.150
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-  ws-opts:
-    headers:
-      Host: 85.17.5.150
-    path: /Af5645tr
-- name: 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  password: b9c4f30f-0e95-4c23-80f8-b134414f43ec
-  port: 12087
-  server: bp.i809.ml
-  skip-cert-verify: false
-  sni: qt54.shenseven.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  network: ws
-  port: 52317
-  server: 5.161.133.65
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e8dcd51e-098d-4155-d232-1438c4f40dc6
-  ws-opts:
-    headers:
-      Host: 5.161.133.65
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  network: ws
-  port: 2053
-  server: v2ray.wefuckgfw.ga
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /DQsafRJn/
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  network: ws
-  port: 2086
-  server: fbi.gov
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 929029a5-9d88-4e2f-ee35-918fea716b77
-  ws-opts:
-    headers:
-      Host: heinuhome-gcore-singapore.heinu.cf
-    path: /@heinuhome
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: yydscf
-  name: 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  network: grpc
-  port: 34443
-  server: bp.i809.ml
-  servername: bp.i809.ml
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b9c4f30f-0e95-4c23-80f8-b134414f43ec
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  network: ws
-  port: 2086
-  server: ip125.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  ws-opts:
-    headers:
-      Host: kz.cloudflare.quest
-    path: /aries
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  network: ws
-  port: 8443
-  server: els200.jslist.tk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  ws-opts:
-    headers:
-      Host: els200.jslist.tk
-    path: /wo.php
-- alterId: 0
-  cipher: auto
-  name: 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  network: ws
-  port: 8880
-  server: king6.workingoogle.ga
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
-  ws-opts:
-    headers:
-      Host: king6.workingoogle.ga
-    path: /fh454hg4fthfh
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  network: ws
-  port: 443
-  server: 203.30.188.189
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-opts:
-    headers:
-      Host: oplg1.zhujicn2.com
-    path: /5QNROSRV
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  network: ws
-  port: 2053
-  server: main.millionaireaisle.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /DQsafRJn/
-- name: 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35117
-  server: zz1.piligou.cc
-  skip-cert-verify: false
-  sni: jd7.piligou.cc
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  network: ws
-  port: 443
-  server: main.millionaireaisle.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  ws-opts:
-    headers:
-      Host: fr1.trump2023.org
-    path: /9JZFDTKE
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  port: 65512
-  server: 2607:f130:0:103::72f9:6485
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796
-- name: 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  password: bbab60b8-779f-31e2-916e-571f7d7023c4
-  port: 35117
-  server: zz3.piligou.cc
-  skip-cert-verify: false
-  sni: jd7.piligou.cc
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  network: ws
-  port: 8080
-  server: www.digitalocean.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.asuka.buzz
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  network: ws
-  port: 2053
-  server: cf.fovi.tk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  ws-opts:
-    headers:
-      Host: foxpol.fovi.tk
-    path: /eisasqa
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  network: ws
-  port: 2053
-  server: cacerts.digicert.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-  ws-opts:
-    headers:
-      Host: v2ray.wefuckgfw.ga
-    path: /DQsafRJn/
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  network: ws
-  port: 2086
-  server: racknerd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-  ws-opts:
-    headers:
-      Host: azstu.cloudflare.quest
-    path: /aries
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  network: ws
-  port: 443
-  server: cacerts.digicert.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  ws-opts:
-    headers:
-      Host: fr1.trump2023.org
-    path: /9JZFDTKE
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
-  network: ws
-  port: 443
-  server: 198.41.203.6
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  ws-opts:
-    headers:
-      Host: fr1.trump2023.org
-    path: /9JZFDTKE
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -4004,39 +3661,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -4379,39 +4009,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4758,39 +4361,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 - name: 📲 电报信息
   proxies:
@@ -5134,39 +4710,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -5510,39 +5059,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -5886,39 +5408,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -6279,39 +5774,12 @@ proxy-groups:
   - default_name_3_24@9
   - 🇺🇸_US_美国_9_24@28
   - 🇺🇸_US_美国_10_24@30
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新)_25@1
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新)_25@3
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@4
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 2_25@5
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 2_25@6
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@10
-  - 🇩🇪 德国(v2rayshare.com每日节点更新)_25@13
-  - 🇦🇺 澳大利亚(v2rayshare.com每日节点更新)_25@14
-  - 🇰🇿 哈萨克斯坦(v2rayshare.com每日节点更新)_25@15
-  - 🇯🇵 日本(v2rayshare.com每日节点更新)_25@17
-  - 🇺🇸 美国(v2rayshare.com每日节点更新)_25@18
-  - 🇭🇰 香港(v2rayshare.com每日节点更新)_25@20
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新)_25@21
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新)_25@24
-  - 🇩🇪 德国(v2rayshare.com每日节点更新) 2_25@25
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 3_25@26
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 2_25@28
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 3_25@29
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 8_25@31
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 9_25@32
-  - 🇪🇺 欧洲(v2rayshare.com每日节点更新) 4_25@33
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 10_25@34
-  - 🇨🇦 加拿大(v2rayshare.com每日节点更新) 3_25@35
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 2_25@41
-  - 🇫🇷 法国(v2rayshare.com每日节点更新)_25@42
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 15_25@44
-  - 🇯🇵 日本(v2rayshare.com每日节点更新) 3_25@45
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 16_25@46
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 18_25@48
-  - 🇳🇱 荷兰(v2rayshare.com每日节点更新) 3_25@50
-  - 🇸🇬 新加坡(v2rayshare.com每日节点更新) 4_25@53
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 22_25@57
-  - 🇺🇸 美国(v2rayshare.com每日节点更新) 27_25@62
+  - 🇨🇳 _TW_台湾_25@1
+  - 🇺🇸 _US_美国 2_25@2
+  - 🇺🇸 _CO_哥伦比亚->🇺🇸_US_美国_25@4
+  - default_name_25@6
+  - 🇨🇳 _TW_台湾 2_25@7
+  - 🇨🇳 _TW_台湾 3_25@8
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
